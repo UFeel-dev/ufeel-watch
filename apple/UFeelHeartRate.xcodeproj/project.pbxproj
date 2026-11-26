@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00AA99A7B04B05F2BB4B099B /* HeartRateMessageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE74BC2B4B274A756EFC6FA8 /* HeartRateMessageTests.swift */; };
+		0C82D0C2B9B935B3DC01121B /* HeartRateRelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = C938C20AB2B713C42DD0E4A5 /* HeartRateRelay.swift */; };
+		0D3621B6B5E15085E2529272 /* UDPSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A52BF5DCC1F70DD4244A36 /* UDPSender.swift */; };
+		17CF451C918DDFDE2B5CF65C /* HeartRateMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0790F868FFD0242F9150EE4 /* HeartRateMessage.swift */; };
+		2F8BB91417D41AD7709B4517 /* HeartRateMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0790F868FFD0242F9150EE4 /* HeartRateMessage.swift */; };
+		32C0CF1A0D81062C1783D934 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3BC08A1BF5D286B866EFC8 /* ContentView.swift */; };
+		3CD6B22F4AB14F19865A32D8 /* UFeelHeartRateWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1ACA26D143778C0C2106D62 /* UFeelHeartRateWatchApp.swift */; };
+		47F640F9F0503A20F5E86FFA /* HeartRateRelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = C938C20AB2B713C42DD0E4A5 /* HeartRateRelay.swift */; };
+		4936D5D732B0C9C64C4FE43F /* UFeelHeartRateWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 66EBE9BAAD55AE7A61F564CF /* UFeelHeartRateWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4E04EC2BAC12EE8177B1AFD3 /* UDPSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A52BF5DCC1F70DD4244A36 /* UDPSender.swift */; };
+		54FC4CADC6C8722B2FF46DAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEBD7B21CA489084B380503 /* ContentView.swift */; };
+		85A257C85F3A2A0C86F601F3 /* HeartRateMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0790F868FFD0242F9150EE4 /* HeartRateMessage.swift */; };
+		A3EE8C3EAD802662C48C39A2 /* UFeelHeartRateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A86AD45CBDC7B84D357F47 /* UFeelHeartRateApp.swift */; };
+		D19912B12A7DD4FE54E3E947 /* UDPSenderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8E8401F94FEA1A62A7A208 /* UDPSenderTests.swift */; };
+		FFA454433F43B28AFCA6917C /* HeartRateWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8F7E80F7B936F8EA215382 /* HeartRateWorkout.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5A9AC19B8CDBAFC9786EFDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 691FD3A40AA2E9FB4DBB181F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C3B740CE77B0C6CABB2DE0B;
+			remoteInfo = UFeelHeartRateWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7AAAB04CBC01ED41B7B5DEAA /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				4936D5D732B0C9C64C4FE43F /* UFeelHeartRateWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		19B82A41D48ABBBD3E8A665C /* UFeelHeartRate.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = UFeelHeartRate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E8F7E80F7B936F8EA215382 /* HeartRateWorkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateWorkout.swift; sourceTree = "<group>"; };
+		2D1DC32CD61294F4AF82C59F /* UFeelHeartRateWatch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UFeelHeartRateWatch.entitlements; sourceTree = "<group>"; };
+		3A4BA0FAC8C422B0ABE62DF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		47A86AD45CBDC7B84D357F47 /* UFeelHeartRateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UFeelHeartRateApp.swift; sourceTree = "<group>"; };
+		5D3BC08A1BF5D286B866EFC8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		66EBE9BAAD55AE7A61F564CF /* UFeelHeartRateWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UFeelHeartRateWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ACFAE4B89CBE56FCAE1AE2C /* UFeelHeartRateTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = UFeelHeartRateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EBB248EAFFA682BC09DF585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AB8E8401F94FEA1A62A7A208 /* UDPSenderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDPSenderTests.swift; sourceTree = "<group>"; };
+		B0790F868FFD0242F9150EE4 /* HeartRateMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateMessage.swift; sourceTree = "<group>"; };
+		C938C20AB2B713C42DD0E4A5 /* HeartRateRelay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateRelay.swift; sourceTree = "<group>"; };
+		CCEBD7B21CA489084B380503 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D0A52BF5DCC1F70DD4244A36 /* UDPSender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDPSender.swift; sourceTree = "<group>"; };
+		E1ACA26D143778C0C2106D62 /* UFeelHeartRateWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UFeelHeartRateWatchApp.swift; sourceTree = "<group>"; };
+		EE74BC2B4B274A756EFC6FA8 /* HeartRateMessageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateMessageTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2A4D56162AB1FF3DB899855A /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				CCEBD7B21CA489084B380503 /* ContentView.swift */,
+				C938C20AB2B713C42DD0E4A5 /* HeartRateRelay.swift */,
+				7EBB248EAFFA682BC09DF585 /* Info.plist */,
+				D0A52BF5DCC1F70DD4244A36 /* UDPSender.swift */,
+				47A86AD45CBDC7B84D357F47 /* UFeelHeartRateApp.swift */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		4DC028E7C561D6BFA8EE0283 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19B82A41D48ABBBD3E8A665C /* UFeelHeartRate.app */,
+				6ACFAE4B89CBE56FCAE1AE2C /* UFeelHeartRateTests.xctest */,
+				66EBE9BAAD55AE7A61F564CF /* UFeelHeartRateWatch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		857E2B111FAAA96BB151A05E /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				B0790F868FFD0242F9150EE4 /* HeartRateMessage.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		88057504352CEB8BDECC3FF9 /* Watch */ = {
+			isa = PBXGroup;
+			children = (
+				5D3BC08A1BF5D286B866EFC8 /* ContentView.swift */,
+				1E8F7E80F7B936F8EA215382 /* HeartRateWorkout.swift */,
+				3A4BA0FAC8C422B0ABE62DF7 /* Info.plist */,
+				2D1DC32CD61294F4AF82C59F /* UFeelHeartRateWatch.entitlements */,
+				E1ACA26D143778C0C2106D62 /* UFeelHeartRateWatchApp.swift */,
+			);
+			path = Watch;
+			sourceTree = "<group>";
+		};
+		D1A0CDF213014AF9AFF3DF73 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EE74BC2B4B274A756EFC6FA8 /* HeartRateMessageTests.swift */,
+				AB8E8401F94FEA1A62A7A208 /* UDPSenderTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		F1D805C8F5BA9651035BA6DD = {
+			isa = PBXGroup;
+			children = (
+				2A4D56162AB1FF3DB899855A /* iPhone */,
+				857E2B111FAAA96BB151A05E /* Shared */,
+				D1A0CDF213014AF9AFF3DF73 /* Tests */,
+				88057504352CEB8BDECC3FF9 /* Watch */,
+				4DC028E7C561D6BFA8EE0283 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		074F727AABDF4F4CC895302F /* UFeelHeartRate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36362EA009959E2E0E5786A1 /* Build configuration list for PBXNativeTarget "UFeelHeartRate" */;
+			buildPhases = (
+				0FCBD30A8497100482459F0D /* Sources */,
+				7AAAB04CBC01ED41B7B5DEAA /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0267EF9DB195850B8D987F7B /* PBXTargetDependency */,
+			);
+			name = UFeelHeartRate;
+			packageProductDependencies = (
+			);
+			productName = UFeelHeartRate;
+			productReference = 19B82A41D48ABBBD3E8A665C /* UFeelHeartRate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1C3B740CE77B0C6CABB2DE0B /* UFeelHeartRateWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D9E4A32355426AAAC8F40AB /* Build configuration list for PBXNativeTarget "UFeelHeartRateWatch" */;
+			buildPhases = (
+				DA1859F6FEDFA29B85EB8BBF /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UFeelHeartRateWatch;
+			packageProductDependencies = (
+			);
+			productName = UFeelHeartRateWatch;
+			productReference = 66EBE9BAAD55AE7A61F564CF /* UFeelHeartRateWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		73C1874DEC9F21E896327D51 /* UFeelHeartRateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5922D8F9F813A3D1A4C4F3A /* Build configuration list for PBXNativeTarget "UFeelHeartRateTests" */;
+			buildPhases = (
+				07C1D8D9DEC192449347EE22 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UFeelHeartRateTests;
+			packageProductDependencies = (
+			);
+			productName = UFeelHeartRateTests;
+			productReference = 6ACFAE4B89CBE56FCAE1AE2C /* UFeelHeartRateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		691FD3A40AA2E9FB4DBB181F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					074F727AABDF4F4CC895302F = {
+						ProvisioningStyle = Automatic;
+					};
+					1C3B740CE77B0C6CABB2DE0B = {
+						ProvisioningStyle = Automatic;
+					};
+					73C1874DEC9F21E896327D51 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CD91B361AF8277087FBC5BB3 /* Build configuration list for PBXProject "UFeelHeartRate" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = F1D805C8F5BA9651035BA6DD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4DC028E7C561D6BFA8EE0283 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				074F727AABDF4F4CC895302F /* UFeelHeartRate */,
+				1C3B740CE77B0C6CABB2DE0B /* UFeelHeartRateWatch */,
+				73C1874DEC9F21E896327D51 /* UFeelHeartRateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07C1D8D9DEC192449347EE22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85A257C85F3A2A0C86F601F3 /* HeartRateMessage.swift in Sources */,
+				00AA99A7B04B05F2BB4B099B /* HeartRateMessageTests.swift in Sources */,
+				0C82D0C2B9B935B3DC01121B /* HeartRateRelay.swift in Sources */,
+				4E04EC2BAC12EE8177B1AFD3 /* UDPSender.swift in Sources */,
+				D19912B12A7DD4FE54E3E947 /* UDPSenderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FCBD30A8497100482459F0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54FC4CADC6C8722B2FF46DAC /* ContentView.swift in Sources */,
+				17CF451C918DDFDE2B5CF65C /* HeartRateMessage.swift in Sources */,
+				47F640F9F0503A20F5E86FFA /* HeartRateRelay.swift in Sources */,
+				0D3621B6B5E15085E2529272 /* UDPSender.swift in Sources */,
+				A3EE8C3EAD802662C48C39A2 /* UFeelHeartRateApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA1859F6FEDFA29B85EB8BBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C0CF1A0D81062C1783D934 /* ContentView.swift in Sources */,
+				2F8BB91417D41AD7709B4517 /* HeartRateMessage.swift in Sources */,
+				FFA454433F43B28AFCA6917C /* HeartRateWorkout.swift in Sources */,
+				3CD6B22F4AB14F19865A32D8 /* UFeelHeartRateWatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0267EF9DB195850B8D987F7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C3B740CE77B0C6CABB2DE0B /* UFeelHeartRateWatch */;
+			targetProxy = C5A9AC19B8CDBAFC9786EFDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3D03D4D645886E4B7E6A4089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Watch/UFeelHeartRateWatch.entitlements;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Watch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ufeel.heartrate.watchkitapp;
+				PRODUCT_NAME = UFeelHeartRateWatch;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		8E3398290F5955C42F8F119B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iPhone/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ufeel.heartrate;
+				PRODUCT_NAME = UFeelHeartRate;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		8F9D5D33E84D0B5F2AC12DB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		9F8293E18CD68BF1FFA21534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ufeel.heartrate.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2C512582761E5B5125BDAA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Watch/UFeelHeartRateWatch.entitlements;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Watch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ufeel.heartrate.watchkitapp;
+				PRODUCT_NAME = UFeelHeartRateWatch;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		A7A4F797EEC736BC8EE1B7D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iPhone/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ufeel.heartrate;
+				PRODUCT_NAME = UFeelHeartRate;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A8A007FE7D05523E6067ED42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ufeel.heartrate.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EFCF7F987162F91AE15B4A8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36362EA009959E2E0E5786A1 /* Build configuration list for PBXNativeTarget "UFeelHeartRate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7A4F797EEC736BC8EE1B7D3 /* Debug */,
+				8E3398290F5955C42F8F119B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4D9E4A32355426AAAC8F40AB /* Build configuration list for PBXNativeTarget "UFeelHeartRateWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D03D4D645886E4B7E6A4089 /* Debug */,
+				A2C512582761E5B5125BDAA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CD91B361AF8277087FBC5BB3 /* Build configuration list for PBXProject "UFeelHeartRate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFCF7F987162F91AE15B4A8C /* Debug */,
+				8F9D5D33E84D0B5F2AC12DB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F5922D8F9F813A3D1A4C4F3A /* Build configuration list for PBXNativeTarget "UFeelHeartRateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F8293E18CD68BF1FFA21534 /* Debug */,
+				A8A007FE7D05523E6067ED42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 691FD3A40AA2E9FB4DBB181F /* Project object */;
+}
