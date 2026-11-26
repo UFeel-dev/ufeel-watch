@@ -46,8 +46,11 @@ Requirements: Apple Watch with watchOS 10 or later, paired with an iPhone with i
 
 1. Open `apple/UFeelHeartRate.xcodeproj` in Xcode.
 2. In **Signing & Capabilities**, select your team for the `UFeelHeartRate` and `UFeelHeartRateWatch` targets. If the bundle identifiers are taken, change both: the watch one must start with the iPhone one, and `WKCompanionAppBundleIdentifier` in `apple/Watch/Info.plist` must match the iPhone one.
-3. Enable **Developer Mode** on the iPhone and on the watch.
-4. Select the `UFeelHeartRate` scheme and your iPhone, and click ▶. Xcode installs the watch app as well.
+3. Enable **Developer Mode** on the iPhone: Settings -> Privacy & Security -> **Developer Mode**.
+4. Pair the watch with Xcode, so that Xcode registers it for development. With Xcode 27 and watchOS 27: in Xcode, Window -> **Device Hub** -> **+** -> **Pair Nearby Device** -> **Apple Watch**. Then on the watch, Settings -> Privacy & Security -> **Developer Mode**, turn it on, tap **Pair with** your Mac, and enter the code Xcode shows. With earlier versions, the watch appears in Window -> **Devices and Simulators** through its iPhone. Keep the watch unlocked while Xcode prepares it.
+5. Select the `UFeelHeartRate` scheme and your iPhone, and click ▶. Then select the `UFeelHeartRateWatch` scheme and your watch, and click ▶.
+
+If the watch says "This app cannot be installed because its integrity could not be verified", Xcode has not registered the watch yet: pair it (step 4) and run both schemes again.
 
 ### Use
 
