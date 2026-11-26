@@ -21,6 +21,8 @@
 		85A257C85F3A2A0C86F601F3 /* HeartRateMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0790F868FFD0242F9150EE4 /* HeartRateMessage.swift */; };
 		A3EE8C3EAD802662C48C39A2 /* UFeelHeartRateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A86AD45CBDC7B84D357F47 /* UFeelHeartRateApp.swift */; };
 		D19912B12A7DD4FE54E3E947 /* UDPSenderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8E8401F94FEA1A62A7A208 /* UDPSenderTests.swift */; };
+		E7D848ADB86E2586832C2223 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB1453F3CD4E2B9CEF9ABD56 /* Assets.xcassets */; };
+		EDD8C114DB01BB9D6F39AAEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D1F67234E4291A33A61068C /* Assets.xcassets */; };
 		FFA454433F43B28AFCA6917C /* HeartRateWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8F7E80F7B936F8EA215382 /* HeartRateWorkout.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +54,7 @@
 		19B82A41D48ABBBD3E8A665C /* UFeelHeartRate.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = UFeelHeartRate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E8F7E80F7B936F8EA215382 /* HeartRateWorkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateWorkout.swift; sourceTree = "<group>"; };
 		2D1DC32CD61294F4AF82C59F /* UFeelHeartRateWatch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UFeelHeartRateWatch.entitlements; sourceTree = "<group>"; };
+		2D1F67234E4291A33A61068C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A4BA0FAC8C422B0ABE62DF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		47A86AD45CBDC7B84D357F47 /* UFeelHeartRateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UFeelHeartRateApp.swift; sourceTree = "<group>"; };
 		5D3BC08A1BF5D286B866EFC8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -64,6 +67,7 @@
 		CCEBD7B21CA489084B380503 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D0A52BF5DCC1F70DD4244A36 /* UDPSender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDPSender.swift; sourceTree = "<group>"; };
 		E1ACA26D143778C0C2106D62 /* UFeelHeartRateWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UFeelHeartRateWatchApp.swift; sourceTree = "<group>"; };
+		EB1453F3CD4E2B9CEF9ABD56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE74BC2B4B274A756EFC6FA8 /* HeartRateMessageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateMessageTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,6 +75,7 @@
 		2A4D56162AB1FF3DB899855A /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				2D1F67234E4291A33A61068C /* Assets.xcassets */,
 				CCEBD7B21CA489084B380503 /* ContentView.swift */,
 				C938C20AB2B713C42DD0E4A5 /* HeartRateRelay.swift */,
 				7EBB248EAFFA682BC09DF585 /* Info.plist */,
@@ -101,6 +106,7 @@
 		88057504352CEB8BDECC3FF9 /* Watch */ = {
 			isa = PBXGroup;
 			children = (
+				EB1453F3CD4E2B9CEF9ABD56 /* Assets.xcassets */,
 				5D3BC08A1BF5D286B866EFC8 /* ContentView.swift */,
 				1E8F7E80F7B936F8EA215382 /* HeartRateWorkout.swift */,
 				3A4BA0FAC8C422B0ABE62DF7 /* Info.plist */,
@@ -138,6 +144,7 @@
 			buildConfigurationList = 36362EA009959E2E0E5786A1 /* Build configuration list for PBXNativeTarget "UFeelHeartRate" */;
 			buildPhases = (
 				0FCBD30A8497100482459F0D /* Sources */,
+				ACD8456110EC0A6C63ACAB14 /* Resources */,
 				7AAAB04CBC01ED41B7B5DEAA /* Embed Watch Content */,
 			);
 			buildRules = (
@@ -157,6 +164,7 @@
 			buildConfigurationList = 4D9E4A32355426AAAC8F40AB /* Build configuration list for PBXNativeTarget "UFeelHeartRateWatch" */;
 			buildPhases = (
 				DA1859F6FEDFA29B85EB8BBF /* Sources */,
+				3747CA25FAF2AA8302E2D251 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -226,6 +234,25 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3747CA25FAF2AA8302E2D251 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7D848ADB86E2586832C2223 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD8456110EC0A6C63ACAB14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD8C114DB01BB9D6F39AAEF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		07C1D8D9DEC192449347EE22 /* Sources */ = {
